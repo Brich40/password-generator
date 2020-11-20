@@ -3,7 +3,7 @@ from bin.classes.password_manger import PasswordManger
 from bin.classes.string_manager import StringManager
 from bin.classes.graph import Graph
 
-PASSWORD_FILE_PATH = "../../passwords/Ashley-Madison.txt"
+PASSWORD_FILE_PATH = "/home/obr01/Documents/CERI/M2_S3/Application-Innovation/Defi4/password_generator/passwords/Ashley-Madison.txt"
 
 
 if __name__ == '__main__':
@@ -13,7 +13,7 @@ if __name__ == '__main__':
     average = StringManager.get_average_len(passwords)
     print("Longueur moyenne des mots contenus dans le corpus : ", "%.2f" % average)
 
-    duplicate = StringManager.getDuplicatesWithCount(passwords)
+    duplicate = StringManager.get_duplicate_with_count(passwords)
     print("Nombre de  mots redondants : " + str(len(duplicate)))
 
     password_manager = PasswordManger(passwords)

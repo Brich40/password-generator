@@ -25,7 +25,7 @@ class StringManager:
         return only_pwd_list
 
     @staticmethod
-    def getDuplicatesWithCount(listOfElems):
+    def get_duplicate_with_count(listOfElems):
         ''' Get frequency count of duplicate elements in the given list '''
         dictOfElems = dict()
         # Iterate over each element in list
