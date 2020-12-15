@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
+
 from bin.classes.password_manger import PasswordManger
 from bin.classes.string_manager import StringManager
 from bin.classes.graph import Graph
 
-PASSWORD_FILE_PATH = "/home/obr01/Documents/CERI/M2_S3/Application-Innovation/Defi4/password_generator/passwords/Ashley-Madison.txt"
+PASSWORD_FILE_PATH = "./passwords/Ashley-Madison.txt"
 
 
 if __name__ == '__main__':
